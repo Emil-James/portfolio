@@ -40,3 +40,29 @@ body{
 .resume_namerole{
     color: white;
 }
+
+.back {
+    background-color: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 10px;
+    width: max-content;
+    border-radius: 20%;
+}
+
+.back a {
+    float: left;
+    display: block;
+    padding: 8px 12px;
+
+    color: azure;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.back a:hover {
+    background: #ddd;
+    color: black;
+    border-radius: 20%;
+}
