@@ -42,11 +42,11 @@ body{
 }
 
 .back {
-    background-color: rgba(0,0,0, 0.8);
     position: fixed;
     top: 10px;
     width: max-content;
-    border-radius: 20%;
+    background-color: rgba(122, 122, 122, 0.4);
+    border-radius: 5%;
 }
 
 .back a {
