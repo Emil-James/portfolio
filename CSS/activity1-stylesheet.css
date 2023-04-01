@@ -1,0 +1,33 @@
+.img {
+    width: 300px;
+}
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+.gallery img {
+    width: 300px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.p {
+    font-style: italic;
+}
+
+img {
+    width: 500px;
+}
+
+section img {
+    width: 300px;
+}

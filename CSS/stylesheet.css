@@ -90,9 +90,12 @@ body {
 
 .description {
     background-color: rgba(0,0,0, 0.2);
+    padding: 25px;
+    overflow: auto;
+
     text-align: right;
     font-size: x-large;
-    padding: 25px;
+    
     color: lightslategray;
     font-family: 'Courier New';
 }
@@ -104,6 +107,12 @@ body {
     padding: 25px;
     color: lightslategray;
     font-family: 'Courier New';
+}
+
+.description::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 img {
@@ -126,7 +135,7 @@ img {
     display: block;
     padding: 14px 16px;
 
-    color: #2c405ffb;
+    color: azure;
     text-align: center;
     
     text-decoration: none;
