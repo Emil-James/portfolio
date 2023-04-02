@@ -1,0 +1,111 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.Felix {
+    background-image: url(../images/Pewdiepie-Symbol.png);
+    background-size: cover;
+
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+
+.Felix-content {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    color: azure;
+    font-family: Tahoma;
+}
+
+.Felix-content h3 {
+    height: 6px;
+}
+
+.Felix-content img {
+    width: 100px;
+}
+
+.pewdiepie {
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+
+.pewdiepie-quote {
+    color: #ddd;
+    height: fit-content;
+    width: 350px;
+
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+    font-family: 'Courier New';
+}
+
+.pewdiepie img {
+    float: right;
+    height: 720px;
+}
+
+.biography {
+    height: 720px;
+    background-color: rgb(53, 61, 70);
+}
+
+.biography img {
+    float: left;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: 5px 5px 10px 5px rgb(23, 28, 32);
+}
+
+.biography-desc {
+    text-align: center;
+    width: 500px;
+    margin-left: 50%;
+    padding-top: 100px;
+    font-family: 'Segoe UI';
+    color: rgb(142, 161, 180);
+}
+
+.biography-desc p {
+    text-align: justify;
+    font-size: medium;
+}
+
+.ScrollTo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: fit-content;
+    border: none;
+    z-index: 99;
+    background-color: rgb(23, 28, 32, .4);
+}
+
+.ScrollTo a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+
+    color: azure;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.ScrollTo a:hover {
+    background: #ddddddc4;
+    color: black;
+}

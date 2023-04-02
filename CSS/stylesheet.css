@@ -143,7 +143,7 @@ img {
     color: black;
 }
 
-#activities {
+.activities {
     display: block;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -157,32 +157,32 @@ img {
     align-items: center;
 }
 
-#activities ul {
+.activities ul {
     font-size: large;
     color: lightslategrey;
 }
 
-#activities h1{
+.activities h1{
     font-family: 'Courier New';
     color: rgb(103, 133, 163);
 }
 
-#activities h3{
+.activities h3{
     font-family: 'Courier New';
     color: rgb(103, 133, 163);
 }
 
-#activities a {
+.activities a {
     text-decoration: none;
     color: lightslategray;
 }
 
-#activities a:hover {
+.activities a:hover {
     text-decoration: underline;
     color: azure;
 }
 
-#activities p {
+.activities p {
     color: lightslategray;
     font-family: 'Segoe UI';
 }
@@ -200,19 +200,19 @@ img {
     grid-template-rows: 25px;
 }
 
-#contact-us {
+.contact-us {
     height: 120px;
     margin-top: 100px;
     background-color: rgba(8, 12, 17, 1);
 }
 
-#contact-us h1 {
+.contact-us h1 {
     font-size: large;
     color: #ddd;
     font-family: 'Segoe UI';
 }
 
-#contact-us a {
+.contact-us a {
     font-size: medium;
     color: lightslategrey;
     text-decoration: none;
@@ -220,7 +220,7 @@ img {
     font-family: 'Segoe UI';
 }
 
-#contact-us a:hover {
+.contact-us a:hover {
     text-decoration: underline;
 }
 
