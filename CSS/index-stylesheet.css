@@ -30,6 +30,7 @@ body {
     text-align: center;
     background-color: rgba(122, 122, 122, 0.4);
     border-radius: 5%;
+    transition: .5s;
 }
 
 .center-button a:hover{

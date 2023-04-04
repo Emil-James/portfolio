@@ -31,6 +31,12 @@ body {
 
 .Felix-content img {
     width: 100px;
+    transition: .5s;
+}
+
+.Felix-content img:hover {
+    width: 130px;
+    transform: rotateZ(360deg);
 }
 
 .pewdiepie {
@@ -103,9 +109,11 @@ body {
     
     text-decoration: none;
     font-size: 17px;
+    transition: .5s;
 }
 
 .ScrollTo a:hover {
-    background: #ddddddc4;
+    background: #ddddddd8;
     color: black;
+    transform: translateY(-20%);
 }

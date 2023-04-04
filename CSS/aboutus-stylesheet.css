@@ -41,6 +41,11 @@ p {
 .emil-container img {
     width: 30%;
     float: left;
+    transition: .5s;
+}
+
+.emil-container img:hover {
+    scale: 150%;
 }
 
 .emil-container a {
@@ -77,6 +82,11 @@ p {
 .james-container img {
     width: 30%;
     float: left;
+    transition: .5s;
+}
+
+.james-container img:hover {
+    scale: 150%;
 }
 
 .james-container a {
@@ -98,7 +108,7 @@ p {
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: max-content;
 }
 
 .wrapper {
@@ -122,11 +132,13 @@ p {
     text-decoration: none;
     font-size: 17px;
     width: 70px;
+    transition: .5s;
 }
 
 .wrapper a:hover {
     background: #ddd;
     color: black;
+    transform: translateX(20%);
 }
 
 .menu-item {
