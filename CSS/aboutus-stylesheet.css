@@ -108,7 +108,13 @@ p {
 .navbar {
     position: fixed;
     top: 0;
+    left: -20;
     width: max-content;
+    transition: .5s;
+}
+
+.navbar:hover {
+    left: 0;
 }
 
 .wrapper {
@@ -133,18 +139,19 @@ p {
     font-size: 17px;
     width: 70px;
     transition: .5s;
+    border-bottom: 1px solid rgba(112, 128, 144, 0.4);
 }
 
 .wrapper a:hover {
     background: #ddd;
     color: black;
-    transform: translateX(20%);
+    transform: translate(20%);
 }
 
 .menu-item {
     transform-origin: 0 0;
-    transform: translateX(-100px);
-    opacity: 0;
+    transform: translateX(-66px);
+    opacity: 80%;
   
     transition-property: transform, opacity;
     transition-duration: 1s;
